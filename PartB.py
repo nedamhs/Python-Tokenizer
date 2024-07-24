@@ -68,7 +68,7 @@ def countCommonToken(file1, file2):
 if __name__ == "__main__":
 
     if len(sys.argv) != 3:
-        print("in the terminal, type : \n python PartB.py file1.txt file2.txt")
+        print("in the terminal, type : \n python PartB.py fileName1.txt fileName2.txt")
         sys.exit(1)
 
     # get the text file as a command line argument

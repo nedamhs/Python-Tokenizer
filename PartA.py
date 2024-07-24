@@ -94,7 +94,7 @@ def print_frequency(dictionary):
 if __name__ == "__main__":
 
     if len(sys.argv) != 2:
-        print("in the terminal, type : \n python PartA.py file1.txt")
+        print("in the terminal, type : \n python PartA.py fileName.txt")
         sys.exit(1)
 
     # get the text file as a command line argument
